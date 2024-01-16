@@ -1,0 +1,6 @@
+digraph "ContextMapGraph" {
+graph ["imagepath"="/tmp/GraphvizJava"]
+"nombre2Contexto" ["margin"="0.3","orientation"="214","shape"="egg","fontsize"="16","style"="bold","label"="nombre2Contexto\n","fontname"="sans-serif"]
+"nombreContexto" ["margin"="0.3","orientation"="284","shape"="egg","fontsize"="16","style"="bold","label"="nombreContexto\n","fontname"="sans-serif"]
+"nombreContexto" -> "nombre2Contexto" ["fontsize"="12","style"="bold","label"="Shared Kernel","dir"="none","fontname"="sans-serif"]
+}

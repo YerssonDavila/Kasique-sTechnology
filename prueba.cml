@@ -1,0 +1,10 @@
+ContextMap KasiquesTechnology{
+contains nombreContexto
+contains nombre2Contexto
+
+nombreContexto <-> nombre2Contexto
+
+}
+BoundedContext nombreContexto
+BoundedContext nombre2Contexto
+
